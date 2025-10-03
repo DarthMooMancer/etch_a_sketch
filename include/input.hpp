@@ -1,6 +1,10 @@
 #ifndef INPUT_HPP
 #define INPUT_HPP
+#include "elements.hpp"
 
-// Add code here
+struct Input {
+	int m_getch;
+	void get_input(bool &running);
+};
 
-#endif
+#endif // INPUT_HPP

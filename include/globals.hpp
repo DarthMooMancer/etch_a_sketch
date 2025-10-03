@@ -1,6 +1,6 @@
 #ifndef GLOBALS_HPP
 #define GLOBALS_HPP
-
-// Add code here
-
+#define ROW 10
+#define COL 20
+#define FMPS 150
 #endif

@@ -9,6 +9,9 @@ include_directories(include)
 
 set(SOURCES
 	src/main.cpp
+	src/elements.cpp
+	src/window.cpp
+	src/input.cpp
 )
 
 add_executable(etchasketch ${SOURCES})
